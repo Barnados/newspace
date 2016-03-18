@@ -1,3 +1,47 @@
+/*navigation*/
+nav{
+	position: relative;
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #329ac0;
+}
+nav ul {
+ display: flex; /* enables flexbox*/
+  width: 100%;
+}
+
+  nav li {
+    flex:1;
+    font-weight: 700;
+    padding: 0 6%;
+    color: white;
+  }
+
+  /* unvisited link */
+    .navigation li a:link {
+        color: white;
+    }
+
+    /* visited link */
+    .navigation li a:visited {
+        color: white;
+    }
+
+    /* mouse over link */
+    .navigation li a:hover {
+        color: white;
+    }
+
+    /* selected link */
+    .navigation li a:active {
+        color: white;
+    }
+
 .content{
   width:100%;
   height:100%;
