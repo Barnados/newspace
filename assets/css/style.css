@@ -1,5 +1,6 @@
 /*navigation*/
 nav{
+  float: left;
 	position: relative;
 	z-index: 100;
 	margin: 0;
@@ -11,13 +12,13 @@ nav{
 	background: #329ac0;
 }
 nav ul {
- display: flex; /* enables flexbox*/
+  float: left;
   width: 100%;
 }
 
   nav li {
-    flex:1;
     font-weight: 700;
+    display: inline;
     padding: 0 6%;
     color: white;
   }
