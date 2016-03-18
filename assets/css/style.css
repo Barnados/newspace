@@ -1,4 +1,7 @@
 /*navigation*/
+body{
+  ;
+}
 nav{
 	position: relative;
 	z-index: 100;
@@ -8,7 +11,7 @@ nav{
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	background: #329ac0;
+	background: #FFC52C;
 }
 nav ul {
  display: flex; /* enables flexbox*/
@@ -45,5 +48,5 @@ nav ul {
 .content{
   width:100%;
   height:100%;
-  color:#E7EDEA;
+  background:white;
 }
