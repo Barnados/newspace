@@ -3,7 +3,7 @@ body{
   ;
 }
 .invis{
- display: none; 
+ display: none;
 }
 nav{
 	position: relative;
@@ -14,11 +14,7 @@ nav{
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-<<<<<<< HEAD
 	background: #FBCE03;
-=======
-	background: #FFC52C;
->>>>>>> origin/master
 }
 nav ul {
  display: flex; /* enables flexbox*/
@@ -52,12 +48,7 @@ nav ul {
 		-webkit-flex-direction: column;
 		flex-direction: column;
   width:100%;
-<<<<<<< HEAD
   color:#E7EDEA;
-=======
-  height:100%;
-  background:white;
->>>>>>> origin/master
 }
 .section{
 	width: 100%;
