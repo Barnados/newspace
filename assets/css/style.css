@@ -1,4 +1,10 @@
 /*navigation*/
+body{
+  ;
+}
+.invis{
+ display: none; 
+}
 nav{
 	position: relative;
 	z-index: 100;
@@ -8,7 +14,11 @@ nav{
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
+<<<<<<< HEAD
 	background: #FBCE03;
+=======
+	background: #FFC52C;
+>>>>>>> origin/master
 }
 nav ul {
  display: flex; /* enables flexbox*/
@@ -17,37 +27,37 @@ nav ul {
 
   nav li {
     flex:1;
+    justify-content: space-between;
     font-weight: 700;
-    padding: 0 6%;
     color: white;
   }
-
   /* unvisited link */
     .navigation li a:link {
         color: white;
     }
-
     /* visited link */
     .navigation li a:visited {
         color: white;
     }
-
     /* mouse over link */
     .navigation li a:hover {
         color: white;
     }
-
     /* selected link */
     .navigation li a:active {
         color: white;
     }
-
 .content{
 	display:flex;
 		-webkit-flex-direction: column;
 		flex-direction: column;
   width:100%;
+<<<<<<< HEAD
   color:#E7EDEA;
+=======
+  height:100%;
+  background:white;
+>>>>>>> origin/master
 }
 .section{
 	width: 100%;
