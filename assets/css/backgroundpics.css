@@ -2,13 +2,13 @@
 #header { background-image: url("../images/header_images/header.jpg");}
 
 /* project-images */
-#project_1 { background-image: url("../images/projects/project_1/project_1_3.jpg"); }
-#project_2 { background-image: url("../images/projects/project_2/project_2_1.jpg"); }
-#project_3 { background-image: url("../images/projects/project_3/project_3_1.jpg"); }
-#project_4 { background-image: url("../images/projects/project_4/project_4_1.jpg"); }
-#project_5 { background-image: url("../images/projects/project_5/project_5_1.jpg"); }
-#project_6 { background-image: url("../images/projects/project_6/project_6_1.jpg"); }
-#project_7 { background-image: url("../images/projects/project_7/project_7_1.jpg"); }
+#project_1 { background-image: url("../images/projects/project_1/project_1.jpg"); }
+#project_2 { background-image: url("../images/projects/project_2/project_2.jpg"); }
+#project_3 { background-image: url("../images/projects/project_3/project_3.jpg"); }
+#project_4 { background-image: url("../images/projects/project_4/project_4.jpg"); }
+#project_5 { background-image: url("../images/projects/project_5/project_5.jpg"); }
+#project_6 { background-image: url("../images/projects/project_6/project_6.jpg"); }
+#project_7 { background-image: url("../images/projects/project_7/project_7.jpg"); }
 
 /* vita-images */
 #vita_1 { background-image: url("../images/icons/cap.png"); }

@@ -1,13 +1,13 @@
 //Requires JQuery or Zepto
 $(document).ready(function(){
 
+// ---> JQUERY NAVIGATION SHOW SCRIPT <---
 // Cache Header
 var $header = $('nav');
 
-// Get height of global-header to use later as starting point
+// height of the header
 var $hHeight = $header.height();
 
-// Set initial position to current position on page
 var prevTop = $(window).scrollTop();
 
 // Scroll event
@@ -20,5 +20,6 @@ $(window).on('scroll', function(e) {
   }
   prevTop = st;
 });
+// ---> JQUERY TYPING Script <---
 
 });

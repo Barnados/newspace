@@ -1,8 +1,8 @@
 /*navigation*/
 body{
 }
-.invis{
- display: none;
+header{
+  position:relative;
 }
 nav{
 	position: fixed;
@@ -47,13 +47,19 @@ nav ul {
      top: -3em; /* Height of the header */
     }
 .content{
-	display:flex;
-		-webkit-flex-direction: column;
-		flex-direction: column;
-  width:100%;
+  display:block;
+  width:95%;
   color:#E7EDEA;
+  max-width: 800px;
+  margin: 0 auto;
+}
 }
 .section{
+  display:flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  flex: 1 1;
+  justify-content: center;
 	width: 100%;
 	background:green;
 	margin-bottom: 1%;
@@ -65,7 +71,7 @@ nav ul {
 		flex-direction: column;
 }
 .section_project{
-	width:100%;
+	width:auto;
 	background:blue;
 	height:25%;
 	margin-top:5%;
@@ -76,16 +82,32 @@ nav ul {
   	background-size: cover;
   	background-repeat: no-repeat;
     background-position: 50% 50%;
-
+    padding: 1em;
 }
 /*about*/
 #about{
 
 }
 .section_about{
-		height: auto;
-		padding: 1em;
-		line-height: 1.5em;
-		background-color: white;
-		color: #5d5d5d;
+  padding-top: 1em;
+	height: auto;
+	line-height: 1.5em;
+	background-color: white;
+	color: #5d5d5d;
+}
+.textbox_about{
+  padding-top: 1em;
+  padding-left: 0.5em;
+}
+
+/*CV*/
+#CV{
+
+}
+.section_CV{
+  padding:1em;
+	height: auto;
+	line-height: 1.5em;
+	background-color: white;
+	color: #5d5d5d;
 }
