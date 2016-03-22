@@ -6,15 +6,14 @@ body{
  display: none;
 }
 nav{
-	position: relative;
+	position: fixed;
 	z-index: 100;
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 50px;
 	text-align: center;
-	line-height: 50px;
 	background: #FBCE03;
+  transition: top .2s ease-in;
 }
 nav ul {
  display: flex; /* enables flexbox*/
@@ -26,6 +25,7 @@ nav ul {
     justify-content: space-between;
     font-weight: 700;
     color: white;
+    line-height: 3em;
   }
   /* unvisited link */
     .navigation li a:link {
@@ -42,6 +42,10 @@ nav ul {
     /* selected link */
     .navigation li a:active {
         color: white;
+    }
+
+.js-nav-scrolling {
+     top: -3em; /* Height of the header */
     }
 .content{
 	display:flex;
@@ -69,6 +73,8 @@ nav ul {
 	display:flex;
 	align-items: center;
 	justify-content: center;
+  border-radius: 1px;
+  color: white;
 }
 /*about*/
 #about{
