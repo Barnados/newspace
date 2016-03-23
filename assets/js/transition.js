@@ -20,6 +20,10 @@ $(window).on('scroll', function(e) {
   }
   prevTop = st;
 });
-// ---> JQUERY TYPING Script <---
-
-});
+// ---> IMAGE HOVER <---
+// $("section_project").hover(function(){
+//     $(this).removeClass("blended");
+//     }, function(){
+//     $(this).addClass("blended");
+//   });
+ });
