@@ -51,10 +51,6 @@ nav ul {
 	border-bottom:1.5px solid #1500a2;
 }
 /*projects*/
-#projects{
-		-webkit-flex-direction: column;
-		flex-direction: column;
-}
 .blended{
   background-color:#1500a2;
   background-blend-mode: lighten;
