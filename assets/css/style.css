@@ -58,7 +58,8 @@ nav ul {
 }
 .section_project{
 	height:33%;
-  flex: 1 0 300px;
+  flex: 1 0 auto;
+  width:300px;
 	margin-top:5%;
 	display:inline-flex;
 	align-items:center;
