@@ -12,14 +12,9 @@
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width : 678px) {
-  .section{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .section_project{
-  }
+#projects{
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
