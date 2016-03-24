@@ -15,6 +15,27 @@
 #projects{
   flex-direction: row;
   justify-content: space-around;
+
+}
+.section_project{
+  width:300px;
+}
+.section_about{
+  display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+}
+.section_about img{
+  max-width: 500px;
+}
+.section_contact{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.section_contact .spacearound{
+  padding-right: 2em;
 }
 
 
@@ -40,8 +61,23 @@ iPad 3
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 /* Styles */
+.content{
+  max-width: 1024px;
 }
-
+@media only screen and (min-width: 769px){
+.main_page nav {
+    display: none
+  }
+.section_about{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+  }
+}
+footer .container{
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
 /* Styles */

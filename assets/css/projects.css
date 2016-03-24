@@ -1,0 +1,23 @@
+.wrapper {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.project_image {
+	width: 100%;
+	height: 50%;
+}
+
+.project_description {
+	display: flex;
+}
+
+.project_description > div {
+	width: 50%;
+	padding: 10px;
+}
+
+.project_description > div:first-child {
+	margin-right: 20px;
+}
