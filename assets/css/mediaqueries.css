@@ -28,9 +28,11 @@
 }
 .section_about img{
   max-width: 500px;
+  max-height: 600px;
 }
 .section_contact{
   flex-direction: row;
+  flex 1 0 auto;
   flex-wrap: wrap;
   justify-content: space-around;
 }

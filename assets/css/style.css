@@ -57,7 +57,7 @@ nav ul {
   background-blend-mode: lighten;
 }
 .section_project{
-	height:33%;
+	height:200px;
   flex: 1 0 auto;
   width: 100%;
 	margin-top:5%;
@@ -90,6 +90,9 @@ nav ul {
 	line-height: 1.5em;
 	background-color: white;
 	color: #1500a2;
+}
+.section_about img{
+  max-height: 30%;
 }
 .textbox_about{
   padding-left:1em;
