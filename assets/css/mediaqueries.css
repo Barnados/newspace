@@ -1,8 +1,11 @@
 
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+@media only screen and (min-width : 450px) {
 /* Styles */
+.section_contact .spacearound{
+  padding-right: 2em;
+}
 }
 
 /* Smartphones (portrait) ----------- */
@@ -14,7 +17,6 @@
 @media only screen and (min-width : 678px) {
 #projects{
   flex-direction: row;
-  justify-content: space-around;
 
 }
 .section_project{
@@ -22,13 +24,13 @@
 }
 .section_about{
   display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   justify-content: center;
 }
 .section_about img{
   max-width: 500px;
-  max-height: 600px;
+  max-height: 200px;
 }
 .section_contact{
   flex-direction: row;

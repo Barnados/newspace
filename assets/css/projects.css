@@ -1,7 +1,15 @@
-.wrapper {
+
+
+nav{
+	position: fixed;
+	z-index: 100;
+	margin: 0;
+	padding: 0;
 	width: 100%;
-	max-width: 600px;
-	margin: 0 auto;
+  height:3em;
+	text-align: center;
+	background:white;
+  transition: top .2s ease-in;
 }
 
 .project_image {
@@ -11,13 +19,11 @@
 
 .project_description {
 	display: flex;
+	color: #1500a2;
 }
 
 .project_description > div {
-	width: 50%;
-	padding: 10px;
-}
+	flex: 1 0 auto;
+	height:300px;
 
-.project_description > div:first-child {
-	margin-right: 20px;
 }

@@ -108,7 +108,7 @@ nav ul {
 }
 .section_contact{
   display: inline-flex;
-  vertical-align: baseline;
+  flex-direction: column;
   padding:1em;
 	height: auto;
 	line-height: 1.5em;
@@ -124,6 +124,8 @@ nav ul {
 .section_contact a:hover:after {
     padding-left: 2rem;
 }
+
+
 footer{
   background: rgba(21,0,162,0.15);
   padding: 2rem 0;
