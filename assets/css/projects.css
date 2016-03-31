@@ -11,19 +11,42 @@ nav{
 	background:white;
   transition: top .2s ease-in;
 }
+nav ul {
+ display: flex; /* enables flexbox*/
+  width: 100%;
+}
+
+  nav li {
+    flex:1 0 auto;
+    justify-content: space-between;
+    font-weight: 700;
+    color: #1500a2;
+    line-height: 3em;
+}
+
+.js-nav-scrolling{
+     top: -3em; /* Height of the header */
+    }
 
 .project_image {
 	width: 100%;
+	background-position: 50% 50%;
+	background-size: cover;
 	height: 50%;
 }
 
-.project_description {
-	display: flex;
+#project_description {
+	padding-top: 1rem;
+	height:100%;
 	color: #1500a2;
+	background-color: white;
+	border-bottom:1.5px solid white;
 }
 
-.project_description > div {
-	flex: 1 0 auto;
+#project_description > p {
+	flex: 1 1 auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	height:300px;
 
 }
