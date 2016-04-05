@@ -72,6 +72,9 @@ iPad 3
 .main_page nav {
     display: none
   }
+.section_project{
+  margin-left: 5%;
+}
 .section_about{
   display: inline-flex;
   flex-direction: row;
