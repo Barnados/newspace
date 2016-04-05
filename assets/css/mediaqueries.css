@@ -5,11 +5,14 @@
 /* Styles */
 .section_contact .spacearound{
   padding-right: 2em;
-}
+  }
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
+  .project_heading{
+    padding-right: 15px;
+  }
 /* Styles */
 }
 
