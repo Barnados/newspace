@@ -40,8 +40,12 @@ nav ul {
     font-weight: 700;
     color: #1500a2;
     line-height: 3em;
+    transition: background .15s cubic-bezier(.33,.66,.66,1);
 }
-
+  nav li:hover{
+    background: #1500a2;
+    color:white;
+  }
 .js-nav-scrolling{
      top: -3em; /* Height of the header */
     }
@@ -90,6 +94,10 @@ nav ul {
   color:white;
   background-color:#1500a2;
   padding:1.1em;
+    transition: .15s ease-in;
+}
+.text_border:hover{
+    text-decoration: underline;
 }
 
 /*about*/

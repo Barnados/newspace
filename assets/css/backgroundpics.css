@@ -10,8 +10,5 @@
 #project_6 { background-image: url("../images/projects/project_6/project_6.jpg"); }
 #project_7 { background-image: url("../images/projects/project_7/project_7.jpg"); }
 
-/* vita-images */
-#vita_1 { background-image: url("../images/icons/cap.png"); }
-#vita_2 { background-image: url("../images/icons/folder.png"); }
-#vita_3 { background-image: url("../images/icons/camera.png"); }
-#vita_4 { background-image: url("../images/icons/devices.png"); }
+/* header images*/
+#project_h { background-image: url("../images/projects/project_1/project_h.jpg"); }
