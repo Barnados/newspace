@@ -59,6 +59,7 @@ nav ul {
   padding-bottom: 5%;
 	border-bottom:1.5px solid #1500a2;
 }
+
 /*projects*/
 #projects{
   flex-flow: column;
@@ -92,9 +93,7 @@ nav ul {
 }
 
 /*about*/
-#about{
 
-}
 .section_about{
   padding-top: 1em;
 	height: auto;
@@ -106,12 +105,22 @@ nav ul {
 .section_about img{
   max-height: 40%;
 }
+.section_about a, .section_contact a{
+  border-bottom: 1.5px solid #1500a2;
+  box-shadow: inset 0 -1px 0 #1500a2;
+   /* box shadow adds additional thickness*/
+  color: inherit;
+  transition: background .15s cubic-bezier(.33,.66,.66,1);
+  text-decoration: none;
+}
+.section_about a:hover, .section_contact a:hover{
+    background: #1500a2;
+    color:white;
+  }
 .textbox_about{
   padding-left:1em;
   padding-top: 1em;
   padding-right:1em;
-
-
 }
 
 /*CV*/
@@ -126,15 +135,6 @@ nav ul {
 	line-height: 1.5em;
 	background-color: white;
   color: #1500a2;
-}
-.section_contact a:after {
-    content: '→';
-    display: inline;
-    padding-left: 1rem;
-    font-weight: bold;
-}
-.section_contact a:hover:after {
-    padding-left: 2rem;
 }
 
 
