@@ -5,6 +5,18 @@
 }
 
 /*fonts*/
+body{
+  font-family: Courier;
+}
+nav{
+  font-family: Helvetica,Arial;
+}
+h3{
+}
+h2{
+}
+.content{
+}
 
 .main_page nav{
 	position: fixed;
@@ -92,7 +104,7 @@ nav ul {
 	color: #1500a2;
 }
 .section_about img{
-  max-height: 30%;
+  max-height: 40%;
 }
 .textbox_about{
   padding-left:1em;

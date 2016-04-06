@@ -28,11 +28,15 @@ nav ul {
      top: -3em; /* Height of the header */
     }
 
-.project_image {
+.project_image{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	width:100%;
+	width:auto;
+	max-height: 80%;
+}
+#imgwithintext{
+	padding-bottom: 10px;
 }
 .project_heading{
 text-align: center;
@@ -45,6 +49,9 @@ color: #1500a2;
 	padding-left:1rem;
 	padding-right: 1rem;
 	line-height: 1.3em;
+}
+.project_description p{
+	padding-bottom: 25px;
 }
 #no_line {
 	color: #1500a2;
