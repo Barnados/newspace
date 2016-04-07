@@ -25,11 +25,11 @@ h2{
 	padding: 0;
 	width: 100%;
   height:3em;
-	text-align: center;
+	justify-content: center;
 	background:white;
   transition: top .2s ease-in;
 }
-nav ul {
+nav ul  {
  display: flex; /* enables flexbox*/
   width: 100%;
 }

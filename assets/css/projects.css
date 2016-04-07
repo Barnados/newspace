@@ -12,7 +12,7 @@ nav{
   transition: top .2s ease-in;
 }
 nav ul {
- display: flex; /* enables flexbox*/
+ display: flex;
   width: 100%;
 }
 
