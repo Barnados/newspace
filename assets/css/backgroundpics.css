@@ -3,7 +3,7 @@
 
 /* project-images */
 #project_1 { background-image: url("../images/projects/project_1/project_1.jpg"); }
-#project_2 { background-image: url("../images/projects/project_2/project_2.jpg"); }
+#project_2 { background-image: url("../images/projects/project_2/project_h2.jpg"); }
 #project_3 { background-image: url("../images/projects/project_3/project_3.jpg"); }
 #project_4 { background-image: url("../images/projects/project_4/project_4.jpg"); }
 #project_5 { background-image: url("../images/projects/project_5/project_5.jpg"); }
@@ -12,3 +12,6 @@
 
 /* header images*/
 #project_h1 { background-image: url("../images/projects/project_1/project_h.jpg"); }
+#project_h2 { background-image: url("../images/projects/project_2/project_h2.jpg"); }
+#project_h3 { background-image: url("../images/projects/project_3/project_3.jpg"); }
+#project_h4 { background-image: url("../images/projects/project_4/project_h4.jpg"); }
