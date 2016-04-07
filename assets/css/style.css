@@ -94,7 +94,7 @@ nav ul {
   color:white;
   background-color:#1500a2;
   padding:1.1em;
-    transition: .15s ease-in;
+      transition: .15s ease-in;
 }
 .text_border:hover{
     text-decoration: underline;
