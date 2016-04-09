@@ -31,6 +31,9 @@
 .section_project{
   width:300px;
 }
+.project_heading{
+  font-size: 1.4em;
+}
 .section_about{
   display: inline-flex;
     flex-direction: row;
@@ -77,12 +80,13 @@ iPad 3
 .content{
   max-width: 1024px;
 }
+.project_heading{
+  font-size: 1.6em;
+}
 @media only screen and (min-width: 769px){
 .main_page nav {
     display: none
   }
-.section_project{
-}
 .section_about{
   display: inline-flex;
   flex-direction: row;
