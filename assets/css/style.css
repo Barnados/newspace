@@ -10,6 +10,7 @@ body{
 }
 nav{
   font-family: Helvetica,Arial;
+  text-align:center;
 }
 h3{
 }
@@ -68,6 +69,7 @@ nav ul  {
 #projects{
   flex-flow: column;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .blended{
   background-color:#1500a2;
@@ -94,16 +96,19 @@ nav ul  {
   color:white;
   background-color:#1500a2;
   padding:1.1em;
-      transition: .15s ease-in;
+
 }
-.text_border:hover{
+.section_project{
+        transition: .15s ease-in;
+}
+.section_project:hover .text_border{
     text-decoration: underline;
 }
 
 /*about*/
 
 .section_about{
-  padding-top: 1em;
+  padding-top: 2em;
 	height: auto;
   width:100%;
 	line-height: 1.5em;
@@ -111,6 +116,7 @@ nav ul  {
 	color: #1500a2;
 }
 .section_about img{
+  flex:1 0 auto;
   max-height: 40%;
 }
 .section_about a, .section_contact a{
@@ -127,7 +133,6 @@ nav ul  {
   }
 .textbox_about{
   padding-left:1em;
-  padding-top: 1em;
   padding-right:1em;
 }
 
@@ -147,23 +152,19 @@ nav ul  {
 
 
 footer{
-  background: rgba(21,0,162,0.15);
-  padding: 2rem 0;
+  background: rgba(21,0,162,0.05);
+  height:2em;
   margin-top: 1.5rem;
   position: relative;
-
-}
-footer .container{
-  padding-left: 1.5rem;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 1.5rem;
   opacity: 0.8;
   line-height: 1.5em;
   color: #1500a2;
 }
-footer .container p{
-padding-bottom: 0.8rem;
-}
-footer #extracolour{
-  color:#0a1c42;
+footer p{
+  padding-right: 2em;
 }

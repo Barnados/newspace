@@ -16,6 +16,9 @@
   .section_contact .spacearound{
     padding-bottom: 1em;
   }
+  .textbox_about{
+    padding-top: 1em;
+  }
 /* Styles */
 }
 
@@ -79,7 +82,6 @@ iPad 3
     display: none
   }
 .section_project{
-  margin-left: 5%;
 }
 .section_about{
   display: inline-flex;
