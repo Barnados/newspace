@@ -58,6 +58,5 @@ color: #1500a2;
 }
 #no_line {
 	background-color: white;
-	border-bottom:1.5px solid white;
 	flex-direction: column;
 }
