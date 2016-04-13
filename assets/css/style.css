@@ -1,16 +1,17 @@
 
 .main_page{
 
-  color:#1500a2;
+  color:#1b1b1c;
 }
 
 /*fonts*/
 body{
-  font-family: Courier;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 nav{
-  font-family: Helvetica,Arial;
-  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 h3{
 }
@@ -33,17 +34,16 @@ h2{
 nav ul  {
  display: flex; /* enables flexbox*/
   width: 100%;
+  justify-content:space-around;
 }
 
-  nav li {
-    flex:1 0 auto;
-    justify-content: space-between;
-    font-weight: 700;
+  nav li a{
+    flex:1 0 30%;
     color: #1500a2;
     line-height: 3em;
     transition: background .15s cubic-bezier(.33,.66,.66,1);
 }
-  nav li:hover{
+  nav li a:hover{
     background: #1500a2;
     color:white;
   }
@@ -53,7 +53,7 @@ nav ul  {
 .content{
   display:block;
   width:95%;
-  color:white;
+  color: #1b1b1c;
   max-width: 800px;
   margin: 0 auto;
   padding-top:1rem;
@@ -113,7 +113,6 @@ nav ul  {
   width:100%;
 	line-height: 1.5em;
 	background-color: white;
-	color: #1500a2;
 }
 .section_about img{
   flex:1 0 auto;
@@ -147,7 +146,7 @@ nav ul  {
 	height: auto;
 	line-height: 1.5em;
 	background-color: white;
-  color: #1500a2;
+  color:inherit;
 }
 
 
@@ -163,7 +162,7 @@ footer{
   padding-left: 1.5rem;
   opacity: 0.8;
   line-height: 1.5em;
-  color: #1500a2;
+  color:  #1500a2;
 }
 footer p{
   padding-right: 2em;
