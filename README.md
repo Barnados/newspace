@@ -1,2 +1,2 @@
 # newspace
-This is my experimental portfolio site. Cause i'm a beginner interface designer from germany, I wanted to make this public.
+This is my experimental portfolio concept. The finished site is available under www.benjaminglock.de . 
